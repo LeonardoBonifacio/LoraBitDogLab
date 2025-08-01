@@ -1,5 +1,6 @@
 #include "Lora-RP2040.h"
 #include "pico/stdlib.h"
+#include "hardware/gpio.h"
 
 // registers
 #define REG_FIFO                 0x00

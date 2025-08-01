@@ -28,7 +28,7 @@ using std::string;
 // Definir pinos para o módulo LoRa
 const int csPin = 8;          // LoRa radio chip select
 const int resetPin = 9;       // LoRa radio reset
-const int irqPin = 7;         // LoRa radio IRQ/DIO0
+const int irqPin = 4;         // LoRa radio IRQ/DIO0
 
 // Parâmetros de configuração LoRa
 const long frequency = 915E6;  // Frequência em Hz (915MHz)

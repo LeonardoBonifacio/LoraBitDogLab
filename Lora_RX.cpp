@@ -28,12 +28,12 @@ using std::string;
 // Definir pinos para o módulo LoRa
 const int csPin = 8;          // LoRa radio chip select
 const int resetPin = 9;       // LoRa radio reset
-const int irqPin = 7;         // LoRa radio IRQ/DIO0
+const int irqPin = 4;         // LoRa radio IRQ/DIO0
 
 // Parâmetros de configuração LoRa - DEVEM SER IGUAIS AO TRANSMISSOR
 const long frequency = 915E6;  // Frequência em Hz (915MHz)
 const int spreadingFactor = 7; // Fator de espalhamento (7-12)
-const long signalBandwidth = 125E3; // Largura de banda (Hz)
+const long signalBandwidth = 500E3; // Largura de banda (Hz)
 const int codingRate = 5;      // Taxa de codificação (5-8 para 4/5 até 4/8)
 const int preambleLength = 8;  // Comprimento do preâmbulo
 const int syncWord = 0x34;     // Palavra de sincronização (0x34 é o padrão)
